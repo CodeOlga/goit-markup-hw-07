@@ -62,19 +62,6 @@
             aria-expanded="false"
             aria-controls="mobile-menu"
           >
-            <!-- <svg
-            width="24"
-            height="24"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
-          </svg> -->
             <svg
               class="menu-hamburger-icon"
               width="32"
@@ -160,31 +147,70 @@
             <h2 class="service-title title">What are we doing</h2>
             <ul class="service-list card-set">
               <li class="service-item card-set-item">
-                <img
-                  class="service-img"
-                  src="./images/services/service-1.jpg"
-                  alt="web sites creating"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source 
+                  srcset="
+                  ./images/services/service_desk@1x.webp 1x,
+                  ./images/services/service_desk@2x.webp 2x"
+                  type="image/webp" />
+                  <source 
+                  srcset="
+                  ./images/services/service_desk@1x.jpg 1x,
+                  ./images/services/service_desk@2x.jpg 2x"
+                  type="image/jpg" />
+                  <img
+                    class="service-img"
+                    src="./images/services/service-1.jpg"
+                    alt="web sites creating"
+                    width="360"
+                    height="300"
+                    loading="lazy"
+                  />
+                </picture>
               </li>
               <li class="service-item card-set-item">
-                <img
-                  class="service-img"
-                  src="./images/services/service-2.jpg"
-                  alt="mobile design"
-                  width="360"
-                  height="300"
-                />
+                  <picture>
+                  <source 
+                  srcset="
+                  ./images/services/service_desk@1x-1.webp 1x,
+                  ./images/services/service_desk@2x-1.webp 2x"
+                  type="image/webp" />
+                  <source 
+                  srcset="
+                  ./images/services/service_desk@1x-1.jpg 1x,
+                  ./images/services/service_desk@2x-1.jpg 2x"
+                  type="image/jpg" />
+                  <img
+                    class="service-img"
+                    src="./images/services/service-2.jpg"
+                    alt="mobile design"
+                    width="360"
+                    height="300"
+                    loading="lazy"
+                  />
+                  </picture>
               </li>
               <li class="service-item card-set-item">
-                <img
-                  class="service-img"
-                  src="./images/services/service-3.jpg"
-                  alt="responsive design"
-                  width="360"
-                  height="300"
-                />
+                  <picture>
+                    <source
+                    srcset="
+                    ./images/services/service_desk@1x-2.webp 1x,
+                    ./images/services/service_desk@2x-2.webp 2x"
+                    type="image/webp" />
+                    <source
+                    srcset="
+                    ./images/services/service_desk@1x-2.jpg 1x,
+                    ./images/services/service_desk@2x-2.jpg 2x"
+                    type="image/jpg" />
+                    <img
+                    class="service-img"
+                    src="./images/services/service-3.jpg"
+                    alt="responsive design"
+                    width="360"
+                    height="300"
+                    loading="lazy"
+                    />
+                  </picture>
               </li>
             </ul>
           </div>
@@ -196,6 +222,11 @@
             <ul class="team-list card-set">
               <li class="team-item card-set-item">
                 <picture>
+                  <source 
+                  srcset="
+                  ./images/team/img_mob@1x.webp 1x,
+                  ./images/team/img_mob@2x.webp 2x"
+                  type="image/webp" />
                   <source 
                   srcset="
                   ./images/team/img_mob@1x.jpg 1x,
@@ -271,6 +302,11 @@
               </li>
               <li class="team-item card-set-item">
                 <picture>
+                   <source 
+                  srcset="
+                  ./images/team/img_mob@1x-1.webp 1x,
+                  ./images/team/img_mob@2x-1.webp 2x"
+                  type="image/webp" />
                   <source 
                   srcset="
                   ./images/team/img_mob@1x-1.jpg 1x,
@@ -346,7 +382,12 @@
               </li>
               <li class="team-item card-set-item">
                 <picture>
-                   <source 
+                  <source 
+                  srcset="
+                  ./images/team/img_mob@1x-2.webp 1x,
+                  ./images/team/img_mob@2x-2.webp 2x"
+                  type="image/webp" />
+                  <source 
                   srcset="
                   ./images/team/img_mob@1x-2.jpg 1x,
                   ./images/team/img_mob@2x-2.jpg 2x"
@@ -421,7 +462,12 @@
               </li>
               <li class="team-item card-set-item">
                 <picture>
-                   <source 
+                    <source 
+                  srcset="
+                  ./images/team/img_mob@1x-3.webp 1x,
+                  ./images/team/img_mob@2x-3.webp 2x"
+                  type="image/webp" />
+                  <source 
                   srcset="
                   ./images/team/img_mob@1x-3.jpg 1x,
                   ./images/team/img_mob@2x-3.jpg 2x"
