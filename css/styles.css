@@ -611,6 +611,7 @@ img {
   .footer-main-container {
     column-gap: 24px;
     width: 552px;
+    /* flex-wrap: wrap; */
   }
 }
 
@@ -695,8 +696,10 @@ img {
 .footer-icon {
   fill: currentColor;
 }
-.footer-subscribe {
-  width: 100%;
+@media screen and (max-width: 1199px) {
+  .footer-subscribe {
+    width: 100%;
+  }
 }
 .footer-subscribe-wrapper {
   display: flex;
