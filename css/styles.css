@@ -696,7 +696,7 @@ img {
 .footer-icon {
   fill: currentColor;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .footer-subscribe {
     width: 100%;
   }
